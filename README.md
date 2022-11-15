@@ -1,2 +1,2 @@
 # zuoshen-algorithm
-左神的算法联系
+左神的算法练习
