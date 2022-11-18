@@ -1,4 +1,4 @@
-package logn排序;
+package nlogn排序;
 
 public class 数组范围内找最大数 {
     public static void main(String[] args) {
