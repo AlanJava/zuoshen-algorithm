@@ -21,12 +21,13 @@ public class 合并两个有序数组88 {
         int p1 = 0;
         int p2 = 0;
         while(p1 <= m-1 && p2 <= n-1){
-            tempArray[i++] = nums1[p1++] >= nums2[p2++] ? nums1[p1++] : nums2[p2++] ;
+            tempArray[i] = nums1[p1] >= nums2[p2] ? nums1[p1++] : nums2[p2++] ;
+            i++;
         }
-        while (p1 <= m){
+        while (p1 <= m-1){
             tempArray[i++] = nums1[p1++];
         }
-        while (p2 <= n){
+        while (p2 <= n-1){
             tempArray[i++] = nums2[p2++];
         }
         nums1 = tempArray;
